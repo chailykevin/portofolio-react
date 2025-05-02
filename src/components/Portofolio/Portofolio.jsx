@@ -1,4 +1,5 @@
 import "./Portofolio.css";
+import portofolioData from "../../data/portofolio.js";
 
 import PortoCard from "../PortoCard/PortoCard.jsx";
 
@@ -7,9 +8,16 @@ export default function Portofolio() {
     <article id="portofolio">
       <h2>Here's my portofolio</h2>
       <div id="portos">
-        <PortoCard />
-        <PortoCard />
-        <PortoCard />
+        {portofolioData.map((portofolio) => {
+          return (
+            <PortoCard
+              key={portofolio.id}
+              title={portofolio.projectTitle}
+              description={portofolio.projectDescription}
+              imgSrc={portofolio.projectImg}
+            />
+          );
+        })}
       </div>
     </article>
   );

@@ -26,3 +26,11 @@ h4 {
 p {
   font-size: 1.1rem;
 }
+
+.icon:hover,
+.icon:hover a {
+  background-color: #fff2f2;
+  color: #2d336b;
+  border-color: #2d336b;
+  cursor: pointer;
+}

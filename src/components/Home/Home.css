@@ -17,6 +17,7 @@
 
 a.social-media {
   color: #fff2f2;
+  transition: 0.2s ease-in-out;
 }
 
 article p {

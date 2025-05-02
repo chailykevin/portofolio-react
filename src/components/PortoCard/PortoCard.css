@@ -1,0 +1,42 @@
+.porto {
+  display: flex;
+  flex-direction: column;
+  background-color: #2d336b;
+  padding: 16px;
+
+  border-radius: 16px;
+}
+
+.porto img {
+  align-self: center;
+  width: 64px;
+}
+
+.porto-image {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  padding-block: 48px;
+}
+
+.portoInformation {
+  color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-block: 12px;
+}
+
+.portoInformation a {
+  font-weight: bold;
+  color: #2d336b;
+  background-color: #ffffff;
+  text-decoration: none;
+
+  padding: 8px 12px;
+  text-align: center;
+  border-radius: 12px;
+}

@@ -1,0 +1,43 @@
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+
+  padding: 12px 160px;
+  min-height: 80vh;
+
+  border-bottom: 2px solid black;
+}
+
+#information {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#about-me {
+  display: flex;
+}
+
+p {
+  flex: 1;
+}
+
+#expertise {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 16px;
+}
+
+#expertise ul {
+  display: flex;
+  gap: 28px;
+}
+
+#expertise ul li {
+  list-style-type: none;
+}

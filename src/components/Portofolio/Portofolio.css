@@ -1,0 +1,18 @@
+#portofolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+
+  padding: 48px 160px;
+  min-height: 80vh;
+
+  border-bottom: 2px solid black;
+}
+
+#portos {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}

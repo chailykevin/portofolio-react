@@ -1,0 +1,30 @@
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+
+  padding: 12px 160px;
+  min-height: 80vh;
+
+  border-bottom: 2px solid black;
+}
+
+#social-medias {
+  display: flex;
+  gap: 16px;
+}
+
+a.social-media {
+  color: #fff2f2;
+}
+
+article p {
+  margin-block: 12px;
+}
+
+aside img {
+  width: 280px;
+  border: 1px solid black;
+  border-radius: 16px;
+}

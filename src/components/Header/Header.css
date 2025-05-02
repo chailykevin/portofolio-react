@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* background-color: #fddede; */
+
+  padding: 12px 64px;
+
+  border-bottom: 2px solid black;
+}
+
+.icon {
+  width: 42px;
+  height: 42px;
+  background-color: #2d336b;
+  border-radius: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff2f2;
+}
+
+svg {
+  font-size: 20px;
+}
+
+header nav ul {
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+}

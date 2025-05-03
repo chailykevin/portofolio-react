@@ -6,6 +6,8 @@ export default function PortoCard({ title, description, imgSrc = "" }) {
     alert("The portofolio isn't available online.");
   }
 
+  console.log(imgSrc);
+
   return (
     <>
       <div className="porto">

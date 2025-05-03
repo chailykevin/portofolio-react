@@ -1,6 +1,11 @@
 import "./Contact.css";
 
 export default function Contact() {
+  function handleFormSubmit(e) {
+    e.preventDefault();
+    alert("This contact form feature is not implemented yet.");
+  }
+
   return (
     <article id="contact">
       <h2>Contact Me!</h2>
@@ -18,7 +23,9 @@ export default function Contact() {
           <textarea name="message" placeholder="Your message"></textarea>
         </div>
 
-        <button type="button">Send</button>
+        <button type="button" onClick={handleFormSubmit}>
+          Send
+        </button>
       </form>
     </article>
   );

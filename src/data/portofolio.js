@@ -4,7 +4,7 @@ const portofolioData = [
     projectTitle: "Note Website (April 2025)",
     projectDescription:
       "Utilized webpack, package manager, web components, and data from REST API",
-    projectImg: "/src/assets/ProjectNotes.png",
+    projectImg: "src/assets/ProjectNotes.png",
   },
   {
     id: "2",

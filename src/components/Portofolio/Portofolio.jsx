@@ -15,6 +15,7 @@ export default function Portofolio() {
               title={portofolio.projectTitle}
               description={portofolio.projectDescription}
               imgSrc={portofolio.projectImg}
+              projectLink={portofolio.projectLink}
             />
           );
         })}

@@ -1,12 +1,19 @@
 import "./PortoCard.css";
 import questionMark from "../../assets/questionmark.png";
 
-export default function PortoCard({ title, description, imgSrc = "" }) {
-  function handleClick() {
-    alert("The portofolio isn't available online.");
+export default function PortoCard({
+  title,
+  description,
+  imgSrc = "",
+  projectLink,
+}) {
+  function handleClick(projectLink) {
+    if (projectLink === "") {
+      alert("The portofolio isn't available online.");
+    } else {
+      window.open(projectLink, "_blank");
+    }
   }
-
-  console.log(imgSrc);
 
   return (
     <>
@@ -19,7 +26,7 @@ export default function PortoCard({ title, description, imgSrc = "" }) {
           <p className="description">
             {description === "" ? "Future project description" : description}
           </p>
-          <a onClick={handleClick}>View Project</a>
+          <a onClick={() => handleClick(projectLink)}>View Project</a>
         </div>
       </div>
     </>

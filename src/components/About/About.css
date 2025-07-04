@@ -43,3 +43,21 @@ p {
 #expertise ul li {
   list-style-type: none;
 }
+
+.skill {
+  background-color: #2d336b;
+  color: #fff2f2;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 16px;
+  font-style: italic;
+  transition: 0.5s;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.skill:hover {
+  background-color: #fff2f2;
+  color: #2d336b;
+  border-color: #2d336b;
+}

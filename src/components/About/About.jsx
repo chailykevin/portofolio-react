@@ -1,10 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faCss3Alt,
-  faHtml5,
-  faJs,
-  faReact,
-} from "@fortawesome/free-brands-svg-icons";
 import "./About.css";
 
 export default function About() {
@@ -27,27 +20,10 @@ export default function About() {
         </section>
         <section id="expertise">
           <h3>My Expertise</h3>
-          <ul>
-            <li>
-              <div id="html" className="icon">
-                <FontAwesomeIcon icon={faHtml5} />
-              </div>
-            </li>
-            <li>
-              <div id="css" className="icon">
-                <FontAwesomeIcon icon={faCss3Alt} />
-              </div>
-            </li>
-            <li>
-              <div id="javascript" className="icon">
-                <FontAwesomeIcon icon={faJs} />
-              </div>
-            </li>
-            <li>
-              <div id="react" className="icon">
-                <FontAwesomeIcon icon={faReact} />
-              </div>
-            </li>
+          <ul id="expertises">
+            <div className="skill">JAVASCRIPT</div>
+            <div className="skill">REACT</div>
+            <div className="skill">TAILWIND CSS</div>
           </ul>
         </section>
       </section>

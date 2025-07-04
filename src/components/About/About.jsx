@@ -14,7 +14,7 @@ export default function About() {
           </p>
           <p>
             I have a strong interest in web development and have been improving
-            my skills in HTML, CSS, JavaScript, and React JS. I enjoy the
+            my skills in JavaScript, React JS and Tailwind CSS. I enjoy the
             creative and problem-solving aspects of building websites.
           </p>
         </section>

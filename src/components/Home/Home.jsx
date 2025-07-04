@@ -1,5 +1,5 @@
 import "./Home.css";
-import fotoKevin from "../../assets/fotoKevin.jpeg";
+import fotoKevin from "./fotoKevin.jpeg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {

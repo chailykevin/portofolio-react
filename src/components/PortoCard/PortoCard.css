@@ -20,6 +20,7 @@
   border-radius: 16px;
   display: flex;
   justify-content: center;
+  min-height: 240px;
 }
 
 .portoInformation {

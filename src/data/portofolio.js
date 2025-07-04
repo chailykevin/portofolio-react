@@ -1,6 +1,13 @@
 const portofolioData = [
   {
     id: "1",
+    projectTitle: "JobNetra (May 2025)",
+    projectDescription: "DBS Foundation Coding Camp capstone project",
+    projectImg: "src/assets/JobNetra.png",
+    projectLink: "https://jobnetra.netlify.app/",
+  },
+  {
+    id: "1",
     projectTitle: "Note Website (April 2025)",
     projectDescription:
       "Utilized webpack, package manager, web components, and data from REST API",

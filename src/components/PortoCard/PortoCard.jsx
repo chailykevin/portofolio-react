@@ -1,5 +1,5 @@
 import "./PortoCard.css";
-import questionMark from "../../assets/questionmark.png";
+import questionMark from "./questionmark.png";
 
 export default function PortoCard({
   title,
